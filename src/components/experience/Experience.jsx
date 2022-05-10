@@ -2,7 +2,7 @@ import React from 'react';
 import './experience.css';
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 import { DiCss3, DiJavascript1 } from 'react-icons/di';
-import { SiSpringboot, SiExpress, SiPython, SiMongodb, SiOracle, SiMysql } from 'react-icons/si';
+import { SiSpringboot,SiMicrosoftsqlserver, SiExpress, SiPython, SiMongodb, SiOracle, SiMysql } from 'react-icons/si';
 import { FaReact, FaBootstrap, FaNodeJs, FaJava,  } from 'react-icons/fa';
 
 const Experience = () => {
@@ -81,6 +81,10 @@ const Experience = () => {
                         <article className="experience__details">
                             <SiMysql className="experience__details-icons" />
                             <h4>MySQL</h4>
+                        </article>
+                        <article className="experience__details">
+                            <SiMicrosoftsqlserver className="experience__details-icons" />
+                            <h4>SQL Server</h4>
                         </article>
                     </div>
                 </div>

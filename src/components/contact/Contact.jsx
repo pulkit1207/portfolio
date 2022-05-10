@@ -31,7 +31,7 @@ const Contact = () => {
                         <MdEmail className='contact__option-icon' />
                         <h4>Email</h4>
                         <h5>pulkit1207@gmail.com</h5>
-                        <a href="mailto:pulkit1207@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
+                        <a href="mailto:pulkit1207@gmail.com" target="_blank" rel="noreferrer">Send an email</a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
